@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background-color: #000;
+  color: #fff; }
+
+.library {
+  width: 100%;
+  max-width: 1680px; }
+  .library .nav-pills .nav-item .nav-link {
+    background: none;
+    color: #fff;
+    transition: all .3s ease-in-out; }
+    .library .nav-pills .nav-item .nav-link:focus {
+      color: #00adef; }
+
+/*# sourceMappingURL=style.css.map */

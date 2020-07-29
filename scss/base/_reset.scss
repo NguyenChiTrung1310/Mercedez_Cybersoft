@@ -1,0 +1,14 @@
+@import '../helper/variable';
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: $bg-main-color;
+    color: $color-white;
+  }
+  
