@@ -1,0 +1,28 @@
+@import '../helper/variable';
+
+footer{
+    hr{
+        border-top: 1px solid $color-gray;
+    }
+    
+    .list{
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                    color: $color-gray-1;
+                }
+            }
+        }
+    }
+    .list_1{
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                    color: $color-gray-1;
+                }
+            }
+        }
+    }
+}
