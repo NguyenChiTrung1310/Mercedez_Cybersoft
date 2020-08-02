@@ -9,6 +9,19 @@ body {
   background-color: #000;
   color: #fff; }
 
+.brandhub-meta-nav ul {
+  list-style: none;
+  display: flex; }
+  @media screen and (min-width: 1024px) {
+    .brandhub-meta-nav ul {
+      justify-content: space-between; } }
+  .brandhub-meta-nav ul li a {
+    text-decoration: none;
+    color: #fff; }
+    .brandhub-meta-nav ul li a:hover {
+      color: #00adef;
+      transition: all 0.4s ease-in-out; }
+
 .library {
   width: 100%;
   max-width: 1680px; }
