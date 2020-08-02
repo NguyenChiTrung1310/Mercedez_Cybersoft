@@ -21,11 +21,16 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <!-- gg fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- WOW Fade -->
+    <link rel="stylesheet" href="./css/animate.css">
+
 </head>
 
 <body>
@@ -166,120 +171,127 @@
                     </div>
                 </div>
 
-                <button type="button" class="btn btn-info mt-5" data-toggle="collapse" data-target="#gallery">Simple
-                    collapsible</button>
+                <div class="button-show mt-5 mb-5">
+                    <button class="btn btn-show" type="button" data-toggle="collapse" data-target="#gallery">
+                        <span>
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+                        </span> Show more
+                    </button>
+                </div>
 
-                <div class="collapse library-items_1" id="gallery">
-                    <div class="item item_1">
-                        <img src="./img/new_1.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                <div class="collapse" id="gallery">
+                    <div class="library-items">
+                        <div class="item item_1">
+                            <img src="./img/new_1.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_2">
-                        <img src="./img/new_2.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_2">
+                            <img src="./img/new_2.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_3">
-                        <img src="./img/new_3.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_3">
+                            <img src="./img/new_3.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_4">
-                        <img src="./img/new_4.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_4">
+                            <img src="./img/new_4.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_5">
-                        <img src="./img/new_5.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_5">
+                            <img src="./img/new_5.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_6">
-                        <img src="./img/new_6.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_6">
+                            <img src="./img/new_6.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_7">
-                        <img src="./img/new_7.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_7">
+                            <img src="./img/new_7.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_8">
-                        <img src="./img/new_8.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_8">
+                            <img src="./img/new_8.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_9">
-                        <img src="./img/new_9.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_9">
+                            <img src="./img/new_9.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_10">
-                        <img src="./img/new_10.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_10">
+                            <img src="./img/new_10.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_11">
-                        <img src="./img/new_11.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_11">
+                            <img src="./img/new_11.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_12">
-                        <img src="./img/new_12.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_12">
+                            <img src="./img/new_12.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_13">
-                        <img src="./img/new_13.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_13">
+                            <img src="./img/new_13.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item item_14" id='item'>
-                        <img src="./img/new_14.jpeg" alt="">
-                        <div class="panel">
-                            <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
-                            <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
-                                wind tunnel</p>
+                        <div class="item item_14" id='item'>
+                            <img src="./img/new_14.jpeg" alt="">
+                            <div class="panel">
+                                <h4>The aerodynamics of the EQC with Dr Teddy Woll</h4>
+                                <p>As head of the aerodynamics department, Teddy Woll has a pretty stormy workplace: the
+                                    wind tunnel</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -755,40 +767,49 @@
         </div>
     </section>
 
-    <section class="information">
-        <div class="title d-flex w-50 justify-content-around">
-            <p>Kraftstoffverbrauch kombiniert</p>
-            <p>CO₂-Emissionen kombiniert</p>
-            <p>Stromverbrauch im kombinierten Testzyklus</p>
-        </div>
+    <section class="information mt-5 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="container-fluid">
+            <div class="title d-flex w-75 mb-3">
+                <p><span class="mr-1"><i class="fas fa-gas-pump"></i></span>Kraftstoffverbrauch kombiniert</p>
+                <p><span class="mr-1"><i class="fab fa-envira"></i></span>CO₂-Emissionen kombiniert</p>
+                <p><span class="mr-1"><i class="fas fa-plug"></i></span>Stromverbrauch im kombinierten Testzyklus</p>
+            </div>
 
-        <div class="content">
-            <p>1 Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren ermittelt. Es handelt sich um die
-                „NEFZ-CO₂-Werte“ i. S. v. Art. 2 Nr. 1 Durchführungsverordnung (EU) 2017/1153. Die
-                Kraftstoffverbrauchswerte wurden auf Basis dieser Werte errechnet. Der Stromverbrauch wurde auf der
-                Grundlage der VO 692/2008/EG ermittelt. Weitere Informationen zum offiziellen Kraftstoffverbrauch und
-                den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den
-                Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen Personenkraftwagenmodelle“
-                entnommen werden, der an allen Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter
-                www.dat.de unentgeltlich erhältlich ist.</p>
-            <p>4 Angaben zu Kraftstoffverbrauch, Stromverbrauch und CO₂-Emissionen sind vorläufig und wurden vom
-                Technischen Dienst für das Zertifizierungsverfahren nach Maßgabe des WLTP-Prüfverfahrens ermittelt und
-                in NEFZ-Werte korreliert. Eine EG-Typgenehmigung und Konformitätsbescheinigung mit amtlichen Werten
-                liegen noch nicht vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich.</p>
-            <p>6 Stromverbrauch und Reichweite wurden auf der Grundlage der VO 692/2008/EG ermittelt. Stromverbrauch und
-                Reichweite sind abhängig von der Fahrzeugkonfiguration. Weitere Informationen zum offiziellen
-                Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem
-                „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen
-                Personenkraftwagenmodelle“ entnommen werden, der an allen Verkaufsstellen und bei der Deutschen
-                Automobil Treuhand GmbH unter www.dat.de unentgeltlich erhältlich ist.</p>
-            <p>7 Angaben zu Stromverbrauch und Reichweite sind vorläufig und wurden vom Technischen Dienst für das
-                Zertifizierungsverfahren nach Maßgabe der UN/ECE-Regelung Nr. 101 ermittelt. Die EG-Typgenehmigung und
-                eine Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den
-                Angaben und den amtlichen Werten sind möglich.</p>
+            <div class="content">
+                <p>1 Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren ermittelt. Es handelt sich um
+                    die
+                    „NEFZ-CO₂-Werte“ i. S. v. Art. 2 Nr. 1 Durchführungsverordnung (EU) 2017/1153. Die
+                    Kraftstoffverbrauchswerte wurden auf Basis dieser Werte errechnet. Der Stromverbrauch wurde auf der
+                    Grundlage der VO 692/2008/EG ermittelt. Weitere Informationen zum offiziellen Kraftstoffverbrauch
+                    und
+                    den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den
+                    Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen
+                    Personenkraftwagenmodelle“
+                    entnommen werden, der an allen Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter
+                    www.dat.de unentgeltlich erhältlich ist.</p>
+                <p>4 Angaben zu Kraftstoffverbrauch, Stromverbrauch und CO₂-Emissionen sind vorläufig und wurden vom
+                    Technischen Dienst für das Zertifizierungsverfahren nach Maßgabe des WLTP-Prüfverfahrens ermittelt
+                    und
+                    in NEFZ-Werte korreliert. Eine EG-Typgenehmigung und Konformitätsbescheinigung mit amtlichen Werten
+                    liegen noch nicht vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich.</p>
+                <p>6 Stromverbrauch und Reichweite wurden auf der Grundlage der VO 692/2008/EG ermittelt. Stromverbrauch
+                    und
+                    Reichweite sind abhängig von der Fahrzeugkonfiguration. Weitere Informationen zum offiziellen
+                    Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können
+                    dem
+                    „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen
+                    Personenkraftwagenmodelle“ entnommen werden, der an allen Verkaufsstellen und bei der Deutschen
+                    Automobil Treuhand GmbH unter www.dat.de unentgeltlich erhältlich ist.</p>
+                <p>7 Angaben zu Stromverbrauch und Reichweite sind vorläufig und wurden vom Technischen Dienst für das
+                    Zertifizierungsverfahren nach Maßgabe der UN/ECE-Regelung Nr. 101 ermittelt. Die EG-Typgenehmigung
+                    und
+                    eine Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den
+                    Angaben und den amtlichen Werten sind möglich.</p>
+            </div>
         </div>
     </section>
 
-    <footer>
+    <footer class="wow fadeInUp" data-wow-delay="0.6s">
         <div class="container-fluid">
             <div class="title row">
                 <div class="col-md-3">
@@ -861,33 +882,38 @@
                 </div>
             </div>
 
-            <div class="stay-info">
-                <h1>Stay information</h1>
+            <div class="stay-info wow fadeInUp" data-wow-delay="0.8s">
+                <h1 class="title">Stay informed</h1>
                 <hr />
                 <div class="row">
                     <div class="col-md-6">
                         <p>To keep you in the loop of our latest news, register now for our email newsletter.
                         </p>
 
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Recipient's username"
-                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group mb-3 mt-4">
+                            <input type="text" class="form-control" placeholder="Your email address"
+                                aria-label="Your email address" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><span
+                                        class="ion-icon">
+                                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                                    </span>Sign up
+                                    now</button>
                             </div>
                         </div>
 
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">I have read the privacy policy (opens in
-                                a popup) and agree. (required)</label>
+                            <label class="form-check-label" for="exampleCheck1">I have read <span>the privacy policy
+                                    (opens in
+                                    a popup)</span> and agree. (required)</label>
                         </div>
                     </div>
 
                     <div class="col-md-6">
                         <p>Follow us and use the following social media platforms to get in contact with us and to share
                             your passion for the brand, products and services of Mercedes-Benz.</p>
-                        <div class="icon social-media">
+                        <div class="icon social-media d-flex justify-content-between">
                             <span><i class="fab fa-facebook"></i></span>
                             <span><i class="fab fa-twitter"></i></span>
                             <span><i class="fab fa-youtube"></i></span>
@@ -901,22 +927,22 @@
                     </div>
                 </div>
                 <hr />
-                <div class="partner">
-                    <div class="row">
-                        <div class="col-md-4"><img src="./img/logo_amg.svg" alt=""></div>
-                        <div class="col-md-4"><img src="./img/logo_daimler.svg" alt=""></div>
-                        <div class="col-md-4"><img src="./img/logo_smart.svg" alt=""></div>
-                    </div>
+                <div class="partner d-flex justify-content-around">
+                    <!-- <div class="row "> -->
+                    <img src="./img/logo_amg.svg" alt="">
+                    <img src="./img/logo_daimler.svg" alt="">
+                    <img src="./img/logo_smart.svg" alt="">
+                    <!-- </div> -->
                 </div>
                 <hr />
             </div>
             <p>This is the International website of Mercedes-Benz AG. Visitors from the U.S., please visit our U.S.
-                website <a href="www.mbusa.com">www.mbusa.com</a>.</p>
+                website <a href="www.mbusa.com" class="web">www.mbusa.com</a>.</p>
 
-            <div class="list_1 container-fluid">
+            <div class="list_1 container-fluid mt-5 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="row">
                     <div class="col-md-3">
-                        Deutsch | English
+                        <h5><span class="deutsch">Deutsch</span> <span class="english">English</span></h5>
                     </div>
                     <div class="col-md-9">
                         <ul class="d-flex justify-content-between">
@@ -957,6 +983,11 @@
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
     <script src="./js/app.js"></script>
+    <!-- WOW -->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
