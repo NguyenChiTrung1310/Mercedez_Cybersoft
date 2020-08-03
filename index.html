@@ -34,7 +34,6 @@
 </head>
 
 <body>
-
     <section class="library">
         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -171,13 +170,14 @@
                     </div>
                 </div>
 
-                <div class="button-show mt-5 mb-5">
+                <div class="button-show mt-5 mb-5" id="showmore">
                     <button class="btn btn-show" type="button" data-toggle="collapse" data-target="#gallery">
                         <span>
                             <ion-icon name="chevron-down-outline"></ion-icon>
                         </span> Show more
                     </button>
                 </div>
+
 
                 <div class="collapse" id="gallery">
                     <div class="library-items">
@@ -981,6 +981,11 @@
 
     <!-- ion-icon -->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    <!-- lazy -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
+        integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ=="
+        crossorigin="anonymous"></script>
 
     <script src="./js/app.js"></script>
     <!-- WOW -->
