@@ -20,7 +20,27 @@ body {
     color: #fff; }
     .brandhub-meta-nav ul li a:hover {
       color: #00adef;
-      transition: all 0.4s ease-in-out; }
+      transition: all 0.2s ease-in-out; }
+
+.navbar-collapse ul {
+  list-style: none;
+  display: flex; }
+  @media screen and (min-width: 1024px) {
+    .navbar-collapse ul {
+      justify-content: space-between; } }
+  .navbar-collapse ul li a {
+    text-decoration: none;
+    color: #fff; }
+    .navbar-collapse ul li a:hover {
+      color: #00adef;
+      transition: all 0.2s ease-in-out; }
+
+.carousel-inner .carousel-caption {
+  top: 0; }
+.carousel-inner h1 {
+  font-size: 30px; }
+.carousel-inner .brandhub-slider-labeling {
+  padding-top: 150px; }
 
 .library {
   width: 100%;
