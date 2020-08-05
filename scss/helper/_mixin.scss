@@ -1,0 +1,13 @@
+
+
+@mixin fontStyle ($fontSize){
+    font-size: $fontSize;
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin  hoverStyle {
+    transition: all .3s ease-in-out;
+            &:hover{
+                color: $color-primary;
+            }
+}

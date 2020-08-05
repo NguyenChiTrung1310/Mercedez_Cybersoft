@@ -1,0 +1,134 @@
+@import '../helper/variable';
+@import '../helper/mixin';
+
+footer{
+    .title{
+        font-size: 1.8rem;
+    }
+    hr{
+        margin: 30px 0;
+        border-top: 1px solid $color-gray;
+    }
+    
+    .list{
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                    color: $color-gray-1;
+                    text-decoration: none;
+                    @include hoverStyle();
+                }
+            }
+        }
+    }
+    .list_1{
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                    color: $color-gray-1;
+                }
+            }
+        }
+    }
+
+    .list{
+        a{
+            @include fontStyle(13px);
+        }
+    }
+    p{
+        @include fontStyle(12px);
+        color: $color-gray-1;
+    }
+    label{
+        @include fontStyle(12px);
+        color: $color-gray-1;
+    }
+    span{
+        color: $color-white;
+        cursor: pointer;
+        @include hoverStyle();
+    }
+
+    .icon{
+        span{
+            font-size: 20px;
+            cursor: pointer;
+            @include hoverStyle();
+        }
+    }
+
+    .input-group{
+        width: 540px;
+    }
+    
+    input[type=text]{
+        background-color: $bg-color-gray;
+        color: $color-white;
+        border: none;
+
+        &:focus{
+        background-color: $bg-color-gray;
+        color: $color-white;
+        }
+        &::placeholder{
+            color: $color-white;
+        }
+    }
+    .btn{
+        @include hoverStyle();
+        @include fontStyle(13px);
+        padding-right: 100px;
+        border: none;
+        background: linear-gradient($bg-color-gray,#0b0b0b);
+        ion-icon{
+            vertical-align: text-bottom;
+            padding-bottom: 3px;
+        }
+    }
+
+    .partner{
+        width: 100%;
+        img{
+            width: 160px;
+            margin: 30px 0;
+        }
+    }
+    .web{
+        color: $color-white;
+        text-decoration: none;
+        @include hoverStyle();
+    }
+
+    .list_1{
+        @include fontStyle(13px);
+        .deutsch{
+                color: $color-primary;
+                // margin-right:px;
+                font-size: 14px;
+                &::after{
+                    content: "";
+                    transition: all .3s ease-in-out;
+                    margin-left: 10px;
+                    border: 1px solid $color-primary;
+                    width: 20px;
+                    font-size: 10px;
+                }
+        }
+        .english{
+            margin-left: 8px;
+            font-size: 14px;
+
+        }
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    @include hoverStyle();
+                }
+            }
+        }
+    }
+}

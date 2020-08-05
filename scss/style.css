@@ -1,3 +1,116 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background-color: #000;
+  color: #fff; }
+
+footer hr {
+  border-top: 1px solid #333; }
+footer .list ul li {
+  list-style-type: none; }
+  footer .list ul li a {
+    color: #999; }
+footer .list_1 ul li {
+  list-style-type: none; }
+  footer .list_1 ul li a {
+    color: #999; }
+
+.library {
+  width: 100%;
+  max-width: 1680px; }
+  .library .nav-pills .nav-item .nav-link {
+    background: none;
+    color: #fff;
+    transition: all .3s ease-in-out; }
+    .library .nav-pills .nav-item .nav-link:focus {
+      color: #00adef; }
+      .library .nav-pills .nav-item .nav-link:focus::after {
+        content: "";
+        transition: all .3s ease-in-out;
+        margin-top: 5px;
+        display: block;
+        border: 1px solid #00adef; }
+    .library .nav-pills .nav-item .nav-link span {
+      margin-right: 10px;
+      font-size: 15px; }
+  .library .library-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    grid-auto-flow: dense; }
+    .library .library-items .item {
+      position: relative;
+      cursor: pointer; }
+      .library .library-items .item:hover .panel {
+        height: 130px;
+        background: rgba(0, 0, 0, 0.7); }
+        .library .library-items .item:hover .panel p {
+          transition: all .4s ease-in-out;
+          display: block; }
+      .library .library-items .item img {
+        width: 100%; }
+      .library .library-items .item .panel {
+        background: rgba(0, 0, 0, 0.35);
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        padding-left: 30px;
+        transition: all .4s ease-in-out; }
+        .library .library-items .item .panel p {
+          display: none; }
+    .library .library-items .item_1 {
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 2; }
+    .library .library-items .item_10 {
+      grid-column: 1 / span 2;
+      grid-row: 5 / span 2; }
+    .library .library-items .item_12 {
+      grid-column: 3 / span 1; }
+      .library .library-items .item_12 img {
+        height: 250px; }
+  .library #gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    grid-auto-flow: dense; }
+    .library #gallery .item {
+      position: relative;
+      cursor: pointer; }
+      .library #gallery .item:hover .panel {
+        height: 130px;
+        background: rgba(0, 0, 0, 0.7); }
+        .library #gallery .item:hover .panel p {
+          transition: all .4s ease-in-out;
+          display: block; }
+      .library #gallery .item img {
+        width: 100%; }
+      .library #gallery .item .panel {
+        background: rgba(0, 0, 0, 0.35);
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        padding-left: 30px;
+        transition: all .4s ease-in-out; }
+        .library #gallery .item .panel p {
+          display: none; }
+    .library #gallery .item_1 {
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 2; }
+    .library #gallery .item_10 {
+      grid-column: 1 / span 2;
+      grid-row: 5 / span 2; }
+    .library #gallery .item_12 {
+      grid-column: 3 / span 1; }
+      .library #gallery .item_12 img {
+        height: 250px; }
 
 /*# sourceMappingURL=style.css.map */

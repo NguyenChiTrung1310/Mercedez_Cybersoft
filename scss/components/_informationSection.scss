@@ -1,0 +1,29 @@
+@import '../helper/variable';
+
+.information{
+    p{
+        font-size: 13px;
+    }
+    .title{
+        @media screen and (max-width: 978px) {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            margin: auto;
+            
+            p{
+                font-size: 10px;
+            }
+            .content{
+                p{
+                    text-align: center;
+                }
+            }
+        }
+
+        p{
+            margin-right: 14px;
+        }
+    }
+}
